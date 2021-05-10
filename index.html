@@ -14,14 +14,29 @@
     <title>Davis Handler</title>
   </head>
   <body>
-    <div class="grid-2">
+    <div class="container">
       <div class="section-1">
         <div class="header-info">
           <i class="fas fa-code fa-5x white"></i>
           <h2>Davis Handler</h2>
-          <p>Denver, Colorado ⛰</p>
+          <p>Software Engineer in Denver, Colorado ⛰</p>
         </div>
-
+        <div class="certs">
+          <img
+            src="https://drm--c.na114.content.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mtz&oid=00DF0000000gZsu&lastMod=1617268528000"
+            class="sfdc-cert"
+          />
+          <img
+            src="https://images.credly.com/size/340x340/images/4bc21d8b-4afe-4fbd-9a90-a9de8bf7b240/AWS-SolArchitect-Associate-2020.png"
+          />
+          <img
+            src="https://images.credly.com/size/340x340/images/68468004-5a85-4f3b-bc58-590773979486/AWS-CloudPractitioner-2020.png"
+          />
+          <img
+            src="https://drm--c.na114.content.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mu5&oid=00DF0000000gZsu&lastMod=1617267801000"
+            class="sfdc-cert"
+          />
+        </div>
         <div class="link-group">
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -49,28 +64,34 @@
             I started my career as a Salesforce Developer at Capgemini working
             on U.S Naval Academy and U.S. Agency for Global Media contract's.
           </p>
-          <h4 class="white">U.S Naval Academy</h4>
-          <ul class="carrer-highlights-list">
-            <li>
-              I built custom APEX API's and Lightning Web Components for the
-              USNA admissions office that utilized the latest SFDC features
-              message channels and the wire service. The project was completed
-              ahead of schedule with 100% test coverage and was deployed in to
-              the production environment.
-            </li>
-          </ul>
-          <h4 class="white">U.S. Agency for Global Media</h4>
-          <ul class="carrer-highlights-list">
-            <li>
-              Designed and developed a lightning application for USAGM to
-              translate Salesforce Objects such as surveys and email templates
-              using a government licensed translation service. The application
-              front end is built on the Lightning Design System and LWC
-              frameworks while the backend utilizes APEX, the SFDC Metadata API,
-              and lightning flows to communicate with the translation service’s
-              REST API and to compile the translated objects.
-            </li>
-          </ul>
+          <div>
+            <p class="drop-down-button">What did I build? 🌩</p>
+          </div>
+          <div class="hidden-details">
+            <h4 class="white">U.S Naval Academy</h4>
+            <ul class="carrer-highlights-list hidden-details">
+              <li>
+                I built custom APEX API's and Lightning Web Components for the
+                USNA admissions office that utilized the latest SFDC features
+                message channels and the wire service. The project was completed
+                ahead of schedule with 100% test coverage and was deployed in to
+                the production environment.
+              </li>
+            </ul>
+
+            <h4 class="white">U.S. Agency for Global Media</h4>
+            <ul class="carrer-highlights-list hidden-details">
+              <li>
+                Designed and developed a lightning application for USAGM to
+                translate Salesforce Objects such as surveys and email templates
+                using a government licensed translation service. The application
+                front end is built on the Lightning Design System and LWC
+                frameworks while the backend utilizes APEX, the SFDC Metadata
+                API, and lightning flows to communicate with the translation
+                service’s REST API and to compile the translated objects.
+              </li>
+            </ul>
+          </div>
         </div>
         <h3 class="white">Salesforce Developer: Stand Together</h3>
         <div>
@@ -80,28 +101,46 @@
             custom front end backend code workflows and classes that allowed
             SFDC admins to solve complex business challenges.
           </p>
-          <h4 class="white">Remittance and Payment API</h4>
-          <ul class="carrer-highlights-list">
-            <li>
-              I wrote invokable APEX methods for admins to calculate proper
-              remittance and payment matching using declarative solutions such
-              as flows and process builder. The remittance and payment API
-              calculated ACH remittance payments based on a series of dynamic
-              rules and external data accessed via the HTTP APEX library.
-            </li>
-          </ul>
-          <h4 class="white">Zoom JWT Salesforce Integration</h4>
-          <ul class="carrer-highlights-list">
-            <li>
-              I implemented a custom Zoom integration using a Zoom JWT custom
-              app and APEX REST services. The integration added campaign members
-              to campaigns based on record type and updated their campaign
-              statuses from a series of HTTP callouts from the Zoom webhook's.
-            </li>
-          </ul>
+          <p class="drop-down-button">What did I build? 🌩</p>
+          <div class="hidden-details">
+            <h4 class="white">Remittance and Payment API</h4>
+            <ul class="carrer-highlights-list">
+              <li>
+                I wrote invokable APEX methods for admins to calculate proper
+                remittance and payment matching using declarative solutions such
+                as flows and process builder. The remittance and payment API
+                calculated ACH remittance payments based on a series of dynamic
+                rules and external data accessed via the HTTP APEX library.
+              </li>
+            </ul>
+            <h4 class="white">Zoom JWT Salesforce Integration</h4>
+            <ul class="carrer-highlights-list">
+              <li>
+                I implemented a custom Zoom integration using a Zoom JWT custom
+                app and APEX REST services. The integration added campaign
+                members to campaigns based on record type and updated their
+                campaign statuses from a series of HTTP callouts from the Zoom
+                webhook's.
+              </li>
+            </ul>
+          </div>
         </div>
 
         <h2>Skills</h2>
+        <div class="skills-list">
+          <p>Vanilla Web Development: Javascript, HTML, CSS 🍦</p>
+          <p>Progressive Web Apps: React and Redux ⭐️</p>
+          <p>Backend Web servers: Node, Express, Python, Flask 🐍</p>
+          <p>
+            Databases: SQL, MongoDB, SQLAlchemy, Sequelize, Mongoose,
+            MongoEngine 💾
+          </p>
+          <p>
+            Salesforce.com: Apex, Visualforce, Lightning Web Components,
+            Metadata API, REST API 🌩
+          </p>
+          <p>Amazon Web Services: EC2, Lambda, ECS, S3, CLI, Boto library 💨</p>
+        </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in
           maiores autem quidem obcaecati excepturi! Cupiditate eaque itaque
@@ -115,7 +154,7 @@
         <a href="#">Project 4</a>
         <a href="#">Project 5</a>
         <h2>Contact</h2>
-        <p>myEmail@email.com</p>
+        <p>handlerdavis@gmail.com</p>
       </div>
     </div>
   </body>
