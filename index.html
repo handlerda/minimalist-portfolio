@@ -1,40 +1,55 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
       integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="style.css" />
+
     <title>Davis Handler</title>
   </head>
   <body>
     <div class="container">
       <div class="section-1">
         <div class="header-info">
-          <i class="fas fa-code fa-5x white"></i>
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C5603AQEoxx_r0ABb2Q/profile-displayphoto-shrink_200_200/0/1597791400892?e=1626307200&v=beta&t=RVX4TCi9p-s6BnQEtW9DnW6t7Btdz8Gj13yuP7zL7-U"
+            class="header-img"
+          />
           <h2>Davis Handler</h2>
           <p>Software Engineer in Denver, Colorado ⛰</p>
         </div>
         <div class="certs">
           <img
-            src="https://drm--c.na114.content.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mtz&oid=00DF0000000gZsu&lastMod=1617268528000"
-            class="sfdc-cert"
+            src="https://images.credly.com/size/340x340/images/4bc21d8b-4afe-4fbd-9a90-a9de8bf7b240/AWS-SolArchitect-Associate-2020.png"
+            class="aws-cert"
           />
           <img
-            src="https://images.credly.com/size/340x340/images/4bc21d8b-4afe-4fbd-9a90-a9de8bf7b240/AWS-SolArchitect-Associate-2020.png"
+            src="https://drm--c.na114.content.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mtz&oid=00DF0000000gZsu&lastMod=1617268528000"
+            class="sfdc-cert"
+            id="sfdc-dev"
+
+          />
+          <img
+          src="https://drm--c.na114.content.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mu5&oid=00DF0000000gZsu&lastMod=1617267801000"
+          class="sfdc-cert"
+          id="sfdc-admin"
+          />
+          <img
+          src="https://drm--c.na114.content.force.com/servlet/servlet.ImageServer?id=0153k00000A5MtX&oid=00DF0000000gZsu&lastMod=1617267315000"
+          id="sfdc-javascript"
+          class="sfdc-cert"
           />
           <img
             src="https://images.credly.com/size/340x340/images/68468004-5a85-4f3b-bc58-590773979486/AWS-CloudPractitioner-2020.png"
-          />
-          <img
-            src="https://drm--c.na114.content.force.com/servlet/servlet.ImageServer?id=0153k00000A5Mu5&oid=00DF0000000gZsu&lastMod=1617267801000"
-            class="sfdc-cert"
+            class="aws-cert"
           />
         </div>
         <div class="link-group">
@@ -44,17 +59,20 @@
         </div>
       </div>
       <div class="section-2">
-        <h2>About</h2>
-        <p>
-          I am a dedicated, developer and entrepreneur with the project
-          experience and technical qualifications to create tailored solutions
-          that solve complex problems.I have domain expertise in Salesforce
-          development, full stack engineering, and the public cloud. I am
-          accustomed to managing various projects and completing deadlines while
-          prioritizing quality execution, unit testing, and client satisfaction.
-          I am comfortable working independently, but strive when working with a
-          diverse team to build impeccable products.
-        </p>
+        <div class="content">
+          <h2>About</h2>
+          <p>
+            I am a dedicated, developer and entrepreneur with the project
+            experience and technical qualifications to create tailored solutions
+            that solve complex problems.I have domain expertise in Salesforce
+            development, full stack engineering, and the public cloud. I am
+            accustomed to managing various projects and completing deadlines
+            while prioritizing quality execution, unit testing, and client
+            satisfaction. I am comfortable working independently, but strive
+            when working with a diverse team to build impeccable products.
+          </p>
+        </div>
+
         <h2>Experience</h2>
         <h3 class="white">
           Salesforce Developer: Capgemini Government Solutions
@@ -65,11 +83,10 @@
             on U.S Naval Academy and U.S. Agency for Global Media contract's.
           </p>
           <div>
-            <p class="drop-down-button">What did I build? 🌩</p>
-          </div>
+          <div class="drop-down-button">What did I build? 🌩</div>
           <div class="hidden-details">
             <h4 class="white">U.S Naval Academy</h4>
-            <ul class="carrer-highlights-list hidden-details">
+            <ul class="carrer-highlights-list">
               <li>
                 I built custom APEX API's and Lightning Web Components for the
                 USNA admissions office that utilized the latest SFDC features
@@ -80,7 +97,7 @@
             </ul>
 
             <h4 class="white">U.S. Agency for Global Media</h4>
-            <ul class="carrer-highlights-list hidden-details">
+            <ul class="carrer-highlights-list ">
               <li>
                 Designed and developed a lightning application for USAGM to
                 translate Salesforce Objects such as surveys and email templates
@@ -101,7 +118,7 @@
             custom front end backend code workflows and classes that allowed
             SFDC admins to solve complex business challenges.
           </p>
-          <p class="drop-down-button">What did I build? 🌩</p>
+          <div class="drop-down-button">What did I build? 🌩</div>
           <div class="hidden-details">
             <h4 class="white">Remittance and Payment API</h4>
             <ul class="carrer-highlights-list">
@@ -128,25 +145,30 @@
 
         <h2>Skills</h2>
         <div class="skills-list">
-          <p>Vanilla Web Development: Javascript, HTML, CSS 🍦</p>
-          <p>Progressive Web Apps: React and Redux ⭐️</p>
-          <p>Backend Web servers: Node, Express, Python, Flask 🐍</p>
           <p>
-            Databases: SQL, MongoDB, SQLAlchemy, Sequelize, Mongoose,
-            MongoEngine 💾
+            <span class="white">Vanilla Web Development: </span>Javascript,
+            HTML, CSS 🍦
           </p>
           <p>
-            Salesforce.com: Apex, Visualforce, Lightning Web Components,
-            Metadata API, REST API 🌩
+            <span class="white">Progressive Web Apps:</span> React and Redux ⭐️
           </p>
-          <p>Amazon Web Services: EC2, Lambda, ECS, S3, CLI, Boto library 💨</p>
+          <p>
+            <span class="white">Backend Web servers:</span> Node, Express,
+            Python, Flask, Apex 🐍
+          </p>
+          <p>
+            <span class="white">Databases:</span> SQL, MongoDB, SQLAlchemy,
+            Sequelize, Mongoose, MongoEngine 💾
+          </p>
+          <p>
+            <span class="white">Salesforce.com:</span> Apex, Visualforce,
+            Lightning Web Components, Metadata API, REST API 🌩
+          </p>
+          <p>
+            <span class="white">Amazon Web Services:</span> EC2, Lambda, ECS,
+            S3, CLI, Boto library 💨
+          </p>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in
-          maiores autem quidem obcaecati excepturi! Cupiditate eaque itaque
-          magni voluptatibus neque nobis est dolor? Atque sunt minus ipsa
-          asperiores. At.
-        </p>
         <h2>Projects</h2>
         <a href="#">Project 1</a>
         <a href="#">Project 2</a>
@@ -157,5 +179,6 @@
         <p>handlerdavis@gmail.com</p>
       </div>
     </div>
+    <script src="./script.js" type="text/javascript" />
   </body>
 </html>
