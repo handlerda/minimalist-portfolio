@@ -24,6 +24,7 @@ h2,
 a {
   color: #7a7c80;
   text-decoration: none;
+  font-size: 18px;
 }
 /* section 1 */
 .section-1 {
@@ -87,11 +88,6 @@ a {
   transition: 0.3s;
 }
 
-.white:hover {
-  position: relative;
-  padding-left: 10px;
-}
-
 /* media queres */
 @media (max-width: 780px) {
   .grid-2 {
@@ -120,11 +116,6 @@ a {
 .hidden-details {
   display: none;
 }
-
-.drop-down-button:hover {
-  color: white;
-}
-
 .drop-down-button {
   font-weight: bolder;
 }
@@ -143,11 +134,12 @@ a {
 
 .certs img {
   margin-left: 0;
+  margin: 1rem;
 }
 
 .sfdc-cert {
-  width: 10%;
-  height: 10%;
+  width: 6rem;
+  height: 6rem;
   margin-top: 0.5rem;
 }
 
@@ -156,3 +148,11 @@ a {
   width: 8rem;
   height: 8rem;
 }
+
+/* 
+.header-text {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding-left: 39%;
+} */

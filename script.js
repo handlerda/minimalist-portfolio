@@ -15,5 +15,3 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
-console.log(`hi from the file`);
