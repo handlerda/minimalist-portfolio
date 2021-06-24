@@ -49,11 +49,17 @@ a {
 }
 /* section 2 */
 .section-2 {
-  padding-top: 2rem;
+  /* padding-top: 2rem;
   padding-right: 25%;
   padding-left: 25%;
 
-  max-width: 50%;
+  max-width: 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-right: 25%;
+  padding-left: 25%;
 }
 
 .section-2 h2 {
@@ -131,6 +137,12 @@ a {
   justify-content: center;
 }
 
+@media (max-width: 780px) {
+  .certs {
+    display: none;
+  }
+}
+
 .certs .aws-cert {
   width: 6rem;
   height: 6rem;
@@ -152,11 +164,3 @@ a {
   width: 8rem;
   height: 8rem;
 }
-
-/* 
-.header-text {
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  padding-left: 39%;
-} */
