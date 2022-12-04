@@ -14,13 +14,22 @@
     <link rel="stylesheet" href="style.css" />
 
     <title>Davis Handler</title>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NQY9B08EC1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NQY9B08EC1');
+  </script>
   </head>
   <body>
     <div class="container">
       <div class="section-1">
         <div class="header-main">
           <img
-            src="/kyoto.jpeg"
+            src="/me.jpeg"
             class="header-img"
           />
           <div class="header-info">
@@ -34,11 +43,9 @@
           </div>
 
         </div>
-        <div class="certs">
-          <img
-            src="https://images.credly.com/size/340x340/images/4bc21d8b-4afe-4fbd-9a90-a9de8bf7b240/AWS-SolArchitect-Associate-2020.png"
-            class="aws-cert"
-          />
+  
+        <div class="certs"> 
+        
           <img
             src="https://developer.salesforce.com/resources2/certification-site/images/Certifications-logo/Platform-Developer-I.png"
             class="sfdc-cert"
@@ -46,20 +53,18 @@
 
           />
           <img
-          src="https://developer.salesforce.com/resources2/certification-site/images/Certifications-logo/Administrator.png"
+          src="/apparch.png"
           class="sfdc-cert"
-          id="sfdc-admin"
+          id="sfdc-apparch"
           />
           <img
           src="https://developer.salesforce.com/resources2/certification-site/images/Certifications-logo/JavaScript-Developer-I.png"
           id="sfdc-javascript"
           class="sfdc-cert"
           />
-          <img
-            src="https://images.credly.com/size/340x340/images/68468004-5a85-4f3b-bc58-590773979486/AWS-CloudPractitioner-2020.png"
-            class="aws-cert"
-          />
+         
         </div>
+        
         <div class="link-group">
           <a href="https://twitter.com/davislaha"><i class="fab fa-twitter"></i></a>
           <a href="https://www.linkedin.com/in/davis-handler/"><i class="fab fa-linkedin"></i></a>
@@ -73,12 +78,32 @@
             I am a fullstack Software Engineer with hands-on experience designing and developing innovative software solutions from concept to deployment. I am a motivated self-starter focused on leveraging the latest technologies to build reliable, scalable, and user-focused applications that drive efficiency and productivity at scale. Let's get in touch!
           </p>
         </div>
-
+ 
         <div class="expereince">
           <h2>Software Engineering Experience</h2>
+          <div>
+            <h3 class="white">Software Engineering Associate Manager: Accenture</h3>
+              <p>
+                Managed onshore senior developers and technical leads to ensure quality delivery and application architecture for the patient service platform of a large pharmacutical company including Salesforce Experience Cloud (LWC, APEX, Salesforce API's),  Health Cloud, GIT via AzureDevOps and MuleSoft.
+              </p>
+              <div class="drop-down-button">What did I build?</div>
+              <div class="hidden-details">
+                <h4 class="white">Complex GIT Trunk Implementation</h4>
+                <ul class="carrer-highlights-list">
+                  <li>
+                    Lead the transformation from an org-based git flow model to a truck-based source control methodology using Azure DevOps. The transformation included setting up a PR based model where developers can submit pull request from VSCode and relevant team leads can approve or reject requests. Mentored senior developers and release engineers to configure pipelines and release strategy for NNI's SFDC and MuleSoft repositories. 
+                  </li>
+                </ul>
+                <h4 class="white">Enterprise Adobe Sign and Load Balance Configuration</h4>
+                <ul class="carrer-highlights-list">
+                  <li>
+                    Designed and managed a bespoke integration between Adobe Sign and NNI downstream systems, including internal microservices and external vendors such as the hub management vendor. I worked with internal NNI stakeholders to implement a two-way SSL connection on relevant load balancers for incoming webhooks.
+                  </li>
+                </ul>
+            </div>
           <div class="app-academy">
             <h3 class="white">
-              Fullstack Development Certification, App Academy
+              Fullstack Development Certification: App Academy
             </h3>
             <div>
               <p>
@@ -167,7 +192,12 @@
           </div>
         </div>
         <h2>Projects</h2>
-        <div class="accredii">
+        <div class="text2soql"> 
+          <h3 class="white">Text2SOQL</h3>
+          <p>Built a tool that uses that uses artificial intelligence to translate a human sentance into SOQL. I used public APIs to to generate the SOQL query. I built both the frontend and backend using Next.js and used Supabase as a Database and IDP. I deployed the application using railway via github actions.</p> 
+          </p>
+        </div>
+        <div class="accredii"> 
           <h3 class="white">Accredii</h3>
           <p>Built an MIS that empowers attorneys to easily create custom subscription agreements and distribute them to investors and companies while managing the entire workflow with React, Redux, Tailwind CSS, Python, MongoDB, S3, HelloSign SDK, Heroku, & Netlify. Provided attorneys and investors with a simple portal that enabled all parties to gain insight into the complexities and state of each agreement. Designed a centralized architecture to allow the system to remember investor responses and automatically populate subsequent subscriptions. Demoing the system to executives in law firms and ISVs including the CIO of Wilson Sonsini, the world’s 52nd largest law firm. 
           </p>
@@ -184,7 +214,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> 
     <script defer src="/script.js" type="text/javascript"></script>
   </body>
 </html>
